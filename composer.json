@@ -1,5 +1,5 @@
 {
-	"name": "domains-marketplace",
+	"name": "domainsmarketplace",
 	"type": "project",
 	"require": {
 		"php": "^7.3|^8.0",
