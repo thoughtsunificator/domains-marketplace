@@ -11,8 +11,7 @@
 		"laravel/sanctum": "^2.11",
 		"laravel/tinker": "^2.5",
 		"mbezhanov/laravel-faker-provider-collection": "^2.0",
-		"mews/purifier": "^3.3",
-		"predis/predis": "^1.1"
+		"mews/purifier": "^3.3"
 	},
 	"require-dev": {
 		"facade/ignition": "^2.5",
