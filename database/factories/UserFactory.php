@@ -36,7 +36,7 @@ class UserFactory extends Factory {
 			'plan_expires' => $this->faker->randomElement([1729000837, 0]),
 			'user_meta' => "",
 			'plan_gateway' => "",
-			'password' => bcrypt('seed'), // password
+			'password' => null, // password
 			'created_at' => Carbon::now(),
 			'remember_token' => "",
 		];
