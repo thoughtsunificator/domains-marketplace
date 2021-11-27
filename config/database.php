@@ -132,7 +132,8 @@ return [
 			'password' => env('REDIS_PASSWORD', null),
 			'port' => env('REDIS_PORT', '6379'),
 			'database' => env('REDIS_DB', '0'),
-			'scheme' => 'tls'
+			'scheme' => 'tls',
+			'read_write_timeout' => 0
 		],
 
 		'cache' => [
